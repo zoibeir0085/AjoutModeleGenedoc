@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="63.574537">
+    <testcase classname="AddModeleFeature" name="Adding model" time="63.574537">
+        <system-out><![CDATA[Given I navigate to the login page..........................................passed
+And I enter "rgauvin@kpmg.fr" and "aezan75".................................passed
+And I click login button....................................................passed
+Then I navigate to the model page...........................................passed
+Then I add new model........................................................passed
+Then I navigate to projects page and I select COVID page....................passed
+Then I associate the model to the project...................................passed
+Then I detach the model from the project....................................passed
+Then I navigate to the model page...........................................passed
+Then I delete the model added...............................................passed
+Then I close the browser....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
